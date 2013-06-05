@@ -6,5 +6,6 @@
     <Item>SimpleDroid45/SimpleDroid45.sln</Item>
     <Item>AsyncDroid/AsyncDroid.sln</Item>
     <Item>SimpleMac45/SimpleMac45.sln</Item>
+    <Item>SimpleTouch45/SimpleTouch45.sln</Item>
   </Items>
 </WorkspaceItem>
