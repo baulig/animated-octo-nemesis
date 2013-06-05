@@ -11,6 +11,8 @@
     <AssemblyName>ExtensionMethod</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <ProductVersion>12.0.0</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -49,11 +51,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Portable45\Portable45.csproj">
-      <Project>{c6aecbd2-950c-4804-9529-c7de85a12c27}</Project>
+      <Project>{C6AECBD2-950C-4804-9529-C7DE85A12C27}</Project>
       <Name>Portable45</Name>
     </ProjectReference>
     <ProjectReference Include="..\Portable\Portable.csproj">
-      <Project>{fcabd3c7-831b-4e62-abb3-38ebd90d510c}</Project>
+      <Project>{FCABD3C7-831B-4E62-ABB3-38EBD90D510C}</Project>
       <Name>Portable</Name>
     </ProjectReference>
   </ItemGroup>

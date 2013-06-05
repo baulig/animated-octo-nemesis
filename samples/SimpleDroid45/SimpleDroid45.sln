@@ -3,9 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleDroid45", "SimpleDroid45\SimpleDroid45.csproj", "{D6C711C0-84D0-42F6-A452-7B3DE2DD4D37}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Portable45", "Portable45\Portable45.csproj", "{118D0D81-A439-4B75-AC54-529C61A915FB}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleTest", "ConsoleTest\ConsoleTest.csproj", "{2E0AC4A6-091A-4B83-BC53-2069DC2C4358}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Portable45", "..\..\library\Portable45\Portable45.csproj", "{C25609AB-AFFB-46DD-8891-326D11779618}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,20 +11,19 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C25609AB-AFFB-46DD-8891-326D11779618}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C25609AB-AFFB-46DD-8891-326D11779618}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C25609AB-AFFB-46DD-8891-326D11779618}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C25609AB-AFFB-46DD-8891-326D11779618}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D6C711C0-84D0-42F6-A452-7B3DE2DD4D37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D6C711C0-84D0-42F6-A452-7B3DE2DD4D37}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D6C711C0-84D0-42F6-A452-7B3DE2DD4D37}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
 		{D6C711C0-84D0-42F6-A452-7B3DE2DD4D37}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D6C711C0-84D0-42F6-A452-7B3DE2DD4D37}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D6C711C0-84D0-42F6-A452-7B3DE2DD4D37}.Release|Any CPU.Deploy.0 = Release|Any CPU
-		{118D0D81-A439-4B75-AC54-529C61A915FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{118D0D81-A439-4B75-AC54-529C61A915FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{118D0D81-A439-4B75-AC54-529C61A915FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{118D0D81-A439-4B75-AC54-529C61A915FB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2E0AC4A6-091A-4B83-BC53-2069DC2C4358}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2E0AC4A6-091A-4B83-BC53-2069DC2C4358}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2E0AC4A6-091A-4B83-BC53-2069DC2C4358}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2E0AC4A6-091A-4B83-BC53-2069DC2C4358}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = SimpleDroid45\SimpleDroid45.csproj
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

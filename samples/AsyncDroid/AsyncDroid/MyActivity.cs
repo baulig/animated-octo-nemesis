@@ -10,7 +10,7 @@ using Android.Views;
 using Android.Widget;
 using Android.OS;
 
-using Portable;
+using Portable45;
 
 namespace AsyncDroid {
 	[Activity (Label = "AsyncDroid", MainLauncher = true, Icon = "@drawable/icon")]

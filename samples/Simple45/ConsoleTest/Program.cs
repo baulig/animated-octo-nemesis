@@ -13,9 +13,6 @@ namespace ConsoleTest {
 			var power = new Power (5);
 			var number = power.Compute (5);
 			Console.WriteLine (number);
-
-			var length = power.GetLength ("Hello");
-			Console.WriteLine (length);
 		}
 	}
 }

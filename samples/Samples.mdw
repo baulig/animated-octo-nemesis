@@ -1,0 +1,9 @@
+<WorkspaceItem ctype="Workspace">
+  <Items>
+    <Item>Simple/Simple.sln</Item>
+    <Item>Simple45/Simple45.sln</Item>
+    <Item>ExtensionMethod/ExtensionMethod.sln</Item>
+    <Item>SimpleDroid45/SimpleDroid45.sln</Item>
+    <Item>AsyncDroid/AsyncDroid.sln</Item>
+  </Items>
+</WorkspaceItem>

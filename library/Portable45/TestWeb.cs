@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Portable {
+namespace Portable45 {
 	public class TestWeb {
 		public Type TestType ()
 		{

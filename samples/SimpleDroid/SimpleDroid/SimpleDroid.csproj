@@ -63,8 +63,8 @@
     <AndroidResource Include="Resources\Drawable\Icon.png" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Portable\Portable.csproj">
-      <Project>{30c21b65-0e13-4e74-bdeb-a27991ee089d}</Project>
+    <ProjectReference Include="..\..\..\library\Portable\Portable.csproj">
+      <Project>{4bad870c-5f11-4988-b777-04250598c202}</Project>
       <Name>Portable</Name>
     </ProjectReference>
   </ItemGroup>
