@@ -1,4 +1,5 @@
-﻿using System;
+﻿#if FEATURE_SYSTEM_NET
+using System;
 using System.Net;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Portable {
 	public class TestWeb {
-		public Type TestType ()
+		public static Type TestType ()
 		{
 			return typeof (System.ServiceModel.BasicHttpBinding);
 		}
@@ -25,3 +26,4 @@ namespace Portable {
 		}
 	}
 }
+#endif
