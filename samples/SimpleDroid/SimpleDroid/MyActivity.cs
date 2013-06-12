@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Specialized;
 
 using Android.App;
 using Android.Content;
@@ -31,9 +32,19 @@ namespace Simple
 			Button button = FindViewById<Button>(Resource.Id.MyButton);
 
 			button.Click += delegate {
+				RunTests ();
 				var number = power.Compute (count++);
 				button.Text = string.Format("{0} is the power", number);
 			};
+		}
+
+		static void RunTests ()
+		{
+			TestWeb.TestType ();
+
+			var windows = new TestSystemWindows ();
+			var notification = windows.Test () as INotifyCollectionChanged;
+			Console.WriteLine (notification);
 		}
 	}
 }
