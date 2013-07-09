@@ -1,5 +1,5 @@
 //
-// SimpleExpressions.cs
+// AssemblyInfo.cs
 //
 // Author:
 //       Martin Baulig <martin.baulig@xamarin.com>
@@ -23,28 +23,25 @@
 // LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
-using System;
-using System.Linq.Expressions;
+using System.Reflection;
+using System.Runtime.CompilerServices;
 
-namespace PortableDLR
-{
-	public static class SimpleExpressions
-	{
-		public static Expression TestConstant (int value)
-		{
-			var constant = Expression.Constant (value);
-			return constant.Reduce ();
-		}
-
-		public static Expression Add (int a, int b)
-		{
-			return Expression.Add (Expression.Constant (a), Expression.Constant (b));
-		}
-
-		public static void SimpleTest ()
-		{
-			var expr = TestConstant (8);
-		}
-	}
-}
+// Information about this assembly is defined by the following attributes. 
+// Change them to the values specific to your project.
+[assembly: AssemblyTitle ("ConsoleTest")]
+[assembly: AssemblyDescription ("")]
+[assembly: AssemblyConfiguration ("")]
+[assembly: AssemblyCompany ("Xamarin Inc. (http://www.xamarin.com)")]
+[assembly: AssemblyProduct ("")]
+[assembly: AssemblyCopyright ("Xamarin Inc. (http://www.xamarin.com)")]
+[assembly: AssemblyTrademark ("")]
+[assembly: AssemblyCulture ("")]
+// The assembly version has the format "{Major}.{Minor}.{Build}.{Revision}".
+// The form "{Major}.{Minor}.*" will automatically update the build and revision,
+// and "{Major}.{Minor}.{Build}.*" will update just the revision.
+[assembly: AssemblyVersion ("1.0.*")]
+// The following attributes are used to specify the signing key for the assembly, 
+// if desired. See the Mono documentation for more information about signing.
+//[assembly: AssemblyDelaySign(false)]
+//[assembly: AssemblyKeyFile("")]
 

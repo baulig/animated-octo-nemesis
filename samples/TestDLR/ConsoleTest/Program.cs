@@ -1,5 +1,5 @@
 //
-// SimpleExpressions.cs
+// Program.cs
 //
 // Author:
 //       Martin Baulig <martin.baulig@xamarin.com>
@@ -24,27 +24,23 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 using System;
-using System.Linq.Expressions;
+using PortableDLR;
 
-namespace PortableDLR
+namespace ConsoleTest
 {
-	public static class SimpleExpressions
+	class MainClass
 	{
-		public static Expression TestConstant (int value)
+		public static void Main (string[] args)
 		{
-			var constant = Expression.Constant (value);
-			return constant.Reduce ();
-		}
+			SimpleExpressions.SimpleTest ();
+			Console.WriteLine ("Hello");
 
-		public static Expression Add (int a, int b)
-		{
-			return Expression.Add (Expression.Constant (a), Expression.Constant (b));
-		}
-
-		public static void SimpleTest ()
-		{
-			var expr = TestConstant (8);
+#if FIXME
+			var a = SimpleExpressions.TestConstant (8);
+			var b = SimpleExpressions.Add (3, 5);
+			Console.WriteLine (a);
+			Console.WriteLine (b);
+#endif
 		}
 	}
 }
-
