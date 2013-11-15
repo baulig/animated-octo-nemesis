@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortableDLR", "PortableDLR\PortableDLR.csproj", "{94218A6B-1874-4550-B7D3-6F02BEB0D4B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestDroid", "TestDroid\TestDroid.csproj", "{6388EB72-86B4-4354-8F84-21EE2007790C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Debug.iOS|Any CPU = Debug.iOS|Any CPU
+		Debug.Android|Any CPU = Debug.Android|Any CPU
+		Release.iOS|Any CPU = Release.iOS|Any CPU
+		Release.Android|Any CPU = Release.Android|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6388EB72-86B4-4354-8F84-21EE2007790C}.Debug.Android|Any CPU.ActiveCfg = Debug|Any CPU
+		{6388EB72-86B4-4354-8F84-21EE2007790C}.Debug.Android|Any CPU.Build.0 = Debug|Any CPU
+		{6388EB72-86B4-4354-8F84-21EE2007790C}.Debug.iOS|Any CPU.ActiveCfg = Debug|Any CPU
+		{6388EB72-86B4-4354-8F84-21EE2007790C}.Debug.iOS|Any CPU.Build.0 = Debug|Any CPU
+		{6388EB72-86B4-4354-8F84-21EE2007790C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6388EB72-86B4-4354-8F84-21EE2007790C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6388EB72-86B4-4354-8F84-21EE2007790C}.Release.Android|Any CPU.ActiveCfg = Release|Any CPU
+		{6388EB72-86B4-4354-8F84-21EE2007790C}.Release.Android|Any CPU.Build.0 = Release|Any CPU
+		{6388EB72-86B4-4354-8F84-21EE2007790C}.Release.iOS|Any CPU.ActiveCfg = Release|Any CPU
+		{6388EB72-86B4-4354-8F84-21EE2007790C}.Release.iOS|Any CPU.Build.0 = Release|Any CPU
+		{6388EB72-86B4-4354-8F84-21EE2007790C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6388EB72-86B4-4354-8F84-21EE2007790C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94218A6B-1874-4550-B7D3-6F02BEB0D4B6}.Debug.Android|Any CPU.ActiveCfg = Debug.Android|Any CPU
+		{94218A6B-1874-4550-B7D3-6F02BEB0D4B6}.Debug.Android|Any CPU.Build.0 = Debug.Android|Any CPU
+		{94218A6B-1874-4550-B7D3-6F02BEB0D4B6}.Debug.iOS|Any CPU.ActiveCfg = Debug.iOS|Any CPU
+		{94218A6B-1874-4550-B7D3-6F02BEB0D4B6}.Debug.iOS|Any CPU.Build.0 = Debug.iOS|Any CPU
+		{94218A6B-1874-4550-B7D3-6F02BEB0D4B6}.Debug|Any CPU.ActiveCfg = Debug.Android|Any CPU
+		{94218A6B-1874-4550-B7D3-6F02BEB0D4B6}.Debug|Any CPU.Build.0 = Debug.Android|Any CPU
+		{94218A6B-1874-4550-B7D3-6F02BEB0D4B6}.Release.Android|Any CPU.ActiveCfg = Release.Android|Any CPU
+		{94218A6B-1874-4550-B7D3-6F02BEB0D4B6}.Release.Android|Any CPU.Build.0 = Release.Android|Any CPU
+		{94218A6B-1874-4550-B7D3-6F02BEB0D4B6}.Release.iOS|Any CPU.ActiveCfg = Release.iOS|Any CPU
+		{94218A6B-1874-4550-B7D3-6F02BEB0D4B6}.Release.iOS|Any CPU.Build.0 = Release.iOS|Any CPU
+		{94218A6B-1874-4550-B7D3-6F02BEB0D4B6}.Release|Any CPU.ActiveCfg = Release.Android|Any CPU
+		{94218A6B-1874-4550-B7D3-6F02BEB0D4B6}.Release|Any CPU.Build.0 = Release.Android|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = PortableDLR\PortableDLR.csproj
+	EndGlobalSection
+EndGlobal

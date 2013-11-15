@@ -1,5 +1,5 @@
 //
-// SimpleExpressions.cs
+// Main.cs
 //
 // Author:
 //       Martin Baulig <martin.baulig@xamarin.com>
@@ -24,36 +24,21 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 using System;
-using System.Linq.Expressions;
+using System.Collections.Generic;
+using System.Linq;
+using MonoTouch.Foundation;
+using MonoTouch.UIKit;
 
-namespace PortableDLR
+namespace SimpleTouch
 {
-	public static class SimpleExpressions
+	public class Application
 	{
-		public static Expression TestConstant (int value)
+		// This is the main entry point of the application.
+		static void Main (string[] args)
 		{
-			var constant = Expression.Constant (value);
-#if IOS
-			return constant;
-#else
-			return constant.Reduce ();
-#endif
-		}
-
-		public static Expression TestVariable ()
-		{
-			return Expression.Variable (typeof (int), "Test");
-		}
-
-		public static Expression Add (int a, int b)
-		{
-			return Expression.Add (Expression.Constant (a), Expression.Constant (b));
-		}
-
-		public static void SimpleTest ()
-		{
-			var expr = TestConstant (8);
+			// if you want to use a different Application Delegate class from "AppDelegate"
+			// you can specify it here.
+			UIApplication.Main (args, null, "AppDelegate");
 		}
 	}
 }
-
