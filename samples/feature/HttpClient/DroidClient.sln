@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortableHttpClient", "PortableHttpClient\PortableHttpClient.csproj", "{659882A4-4082-4EF7-8386-D3951F94488E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DroidClient", "DroidClient\DroidClient.csproj", "{F675498F-2DFE-4FD4-A4D9-F90E16263049}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{659882A4-4082-4EF7-8386-D3951F94488E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{659882A4-4082-4EF7-8386-D3951F94488E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{659882A4-4082-4EF7-8386-D3951F94488E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{659882A4-4082-4EF7-8386-D3951F94488E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F675498F-2DFE-4FD4-A4D9-F90E16263049}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F675498F-2DFE-4FD4-A4D9-F90E16263049}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F675498F-2DFE-4FD4-A4D9-F90E16263049}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F675498F-2DFE-4FD4-A4D9-F90E16263049}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = DroidClient\DroidClient.csproj
+	EndGlobalSection
+EndGlobal

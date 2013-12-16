@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortableObservableCollection", "PortableObservableCollection\PortableObservableCollection.csproj", "{929C5BFB-E5B6-49D5-8D42-B9C215F8F47E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestDroid", "TestDroid\TestDroid.csproj", "{51D90745-82AE-412C-9E98-D073EE7B5EED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Debug.iOS|Any CPU = Debug.iOS|Any CPU
+		Debug.Android|Any CPU = Debug.Android|Any CPU
+		Release.iOS|Any CPU = Release.iOS|Any CPU
+		Release.Android|Any CPU = Release.Android|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{51D90745-82AE-412C-9E98-D073EE7B5EED}.Debug.Android|Any CPU.ActiveCfg = Debug|Any CPU
+		{51D90745-82AE-412C-9E98-D073EE7B5EED}.Debug.Android|Any CPU.Build.0 = Debug|Any CPU
+		{51D90745-82AE-412C-9E98-D073EE7B5EED}.Debug.iOS|Any CPU.ActiveCfg = Debug|Any CPU
+		{51D90745-82AE-412C-9E98-D073EE7B5EED}.Debug.iOS|Any CPU.Build.0 = Debug|Any CPU
+		{51D90745-82AE-412C-9E98-D073EE7B5EED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51D90745-82AE-412C-9E98-D073EE7B5EED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51D90745-82AE-412C-9E98-D073EE7B5EED}.Release.Android|Any CPU.ActiveCfg = Release|Any CPU
+		{51D90745-82AE-412C-9E98-D073EE7B5EED}.Release.Android|Any CPU.Build.0 = Release|Any CPU
+		{51D90745-82AE-412C-9E98-D073EE7B5EED}.Release.iOS|Any CPU.ActiveCfg = Release|Any CPU
+		{51D90745-82AE-412C-9E98-D073EE7B5EED}.Release.iOS|Any CPU.Build.0 = Release|Any CPU
+		{51D90745-82AE-412C-9E98-D073EE7B5EED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51D90745-82AE-412C-9E98-D073EE7B5EED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{929C5BFB-E5B6-49D5-8D42-B9C215F8F47E}.Debug.Android|Any CPU.ActiveCfg = Debug.Android|Any CPU
+		{929C5BFB-E5B6-49D5-8D42-B9C215F8F47E}.Debug.Android|Any CPU.Build.0 = Debug.Android|Any CPU
+		{929C5BFB-E5B6-49D5-8D42-B9C215F8F47E}.Debug.iOS|Any CPU.ActiveCfg = Debug.iOS|Any CPU
+		{929C5BFB-E5B6-49D5-8D42-B9C215F8F47E}.Debug.iOS|Any CPU.Build.0 = Debug.iOS|Any CPU
+		{929C5BFB-E5B6-49D5-8D42-B9C215F8F47E}.Debug|Any CPU.ActiveCfg = Debug.Android|Any CPU
+		{929C5BFB-E5B6-49D5-8D42-B9C215F8F47E}.Debug|Any CPU.Build.0 = Debug.Android|Any CPU
+		{929C5BFB-E5B6-49D5-8D42-B9C215F8F47E}.Release.Android|Any CPU.ActiveCfg = Release.Android|Any CPU
+		{929C5BFB-E5B6-49D5-8D42-B9C215F8F47E}.Release.Android|Any CPU.Build.0 = Release.Android|Any CPU
+		{929C5BFB-E5B6-49D5-8D42-B9C215F8F47E}.Release.iOS|Any CPU.ActiveCfg = Release.iOS|Any CPU
+		{929C5BFB-E5B6-49D5-8D42-B9C215F8F47E}.Release.iOS|Any CPU.Build.0 = Release.iOS|Any CPU
+		{929C5BFB-E5B6-49D5-8D42-B9C215F8F47E}.Release|Any CPU.ActiveCfg = Release.Android|Any CPU
+		{929C5BFB-E5B6-49D5-8D42-B9C215F8F47E}.Release|Any CPU.Build.0 = Release.Android|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = PortableObservableCollection\PortableObservableCollection.csproj
+	EndGlobalSection
+EndGlobal

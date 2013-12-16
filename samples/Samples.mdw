@@ -1,11 +1,18 @@
 <WorkspaceItem ctype="Workspace">
   <Items>
-    <Item>Simple/Simple.sln</Item>
-    <Item>Simple45/Simple45.sln</Item>
-    <Item>ExtensionMethod/ExtensionMethod.sln</Item>
-    <Item>SimpleDroid45/SimpleDroid45.sln</Item>
-    <Item>AsyncDroid/AsyncDroid.sln</Item>
-    <Item>SimpleMac45/SimpleMac45.sln</Item>
-    <Item>SimpleTouch45/SimpleTouch45.sln</Item>
+    <Item>simple/Simple/Simple.sln</Item>
+    <Item>simple/Simple45/Simple45.sln</Item>
+    <Item>simple/SimpleMac/SimpleMac.sln</Item>
+    <Item>simple/SimpleMac45/SimpleMac45.sln</Item>
+    <Item>simple/SimpleDroid/SimpleDroid.sln</Item>
+    <Item>simple/SimpleDroid45/SimpleDroid45.sln</Item>
+    <Item>simple/SimpleTouch/SimpleTouch.sln</Item>
+    <Item>simple/SimpleTouch45/SimpleTouch45.sln</Item>
+    <Item>feature/TestDLR/TestDLR.sln</Item>
+    <Item>simple/AsyncDroid/AsyncDroid.sln</Item>
+    <Item>feature/ExtensionMethod/ExtensionMethod.sln</Item>
+    <Item>feature/ObservableCollection/ObservableCollection.sln</Item>
+    <Item>feature/HttpClient/HttpClient.sln</Item>
+    <Item>feature/TestNumerics/TestNumerics.sln</Item>
   </Items>
 </WorkspaceItem>

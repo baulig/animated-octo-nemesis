@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortableHttpClient", "PortableHttpClient\PortableHttpClient.csproj", "{659882A4-4082-4EF7-8386-D3951F94488E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TouchClient", "TouchClient\TouchClient.csproj", "{55DCEB4A-8504-4AC4-AE7C-5A38B9AE03CB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+		Ad-Hoc|iPhone = Ad-Hoc|iPhone
+		AppStore|iPhone = AppStore|iPhone
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{55DCEB4A-8504-4AC4-AE7C-5A38B9AE03CB}.Ad-Hoc|iPhone.ActiveCfg = Ad-Hoc|iPhone
+		{55DCEB4A-8504-4AC4-AE7C-5A38B9AE03CB}.Ad-Hoc|iPhone.Build.0 = Ad-Hoc|iPhone
+		{55DCEB4A-8504-4AC4-AE7C-5A38B9AE03CB}.AppStore|iPhone.ActiveCfg = AppStore|iPhone
+		{55DCEB4A-8504-4AC4-AE7C-5A38B9AE03CB}.AppStore|iPhone.Build.0 = AppStore|iPhone
+		{55DCEB4A-8504-4AC4-AE7C-5A38B9AE03CB}.Debug|Any CPU.ActiveCfg = Debug|iPhone
+		{55DCEB4A-8504-4AC4-AE7C-5A38B9AE03CB}.Debug|Any CPU.Build.0 = Debug|iPhone
+		{55DCEB4A-8504-4AC4-AE7C-5A38B9AE03CB}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{55DCEB4A-8504-4AC4-AE7C-5A38B9AE03CB}.Debug|iPhone.Build.0 = Debug|iPhone
+		{55DCEB4A-8504-4AC4-AE7C-5A38B9AE03CB}.Release|Any CPU.ActiveCfg = Release|iPhone
+		{55DCEB4A-8504-4AC4-AE7C-5A38B9AE03CB}.Release|Any CPU.Build.0 = Release|iPhone
+		{55DCEB4A-8504-4AC4-AE7C-5A38B9AE03CB}.Release|iPhone.ActiveCfg = Release|iPhone
+		{55DCEB4A-8504-4AC4-AE7C-5A38B9AE03CB}.Release|iPhone.Build.0 = Release|iPhone
+		{659882A4-4082-4EF7-8386-D3951F94488E}.Ad-Hoc|iPhone.ActiveCfg = Debug|Any CPU
+		{659882A4-4082-4EF7-8386-D3951F94488E}.Ad-Hoc|iPhone.Build.0 = Debug|Any CPU
+		{659882A4-4082-4EF7-8386-D3951F94488E}.AppStore|iPhone.ActiveCfg = Debug|Any CPU
+		{659882A4-4082-4EF7-8386-D3951F94488E}.AppStore|iPhone.Build.0 = Debug|Any CPU
+		{659882A4-4082-4EF7-8386-D3951F94488E}.Debug|Any CPU.ActiveCfg = Debug.iOS|Any CPU
+		{659882A4-4082-4EF7-8386-D3951F94488E}.Debug|Any CPU.Build.0 = Debug.iOS|Any CPU
+		{659882A4-4082-4EF7-8386-D3951F94488E}.Debug|iPhone.ActiveCfg = Debug.iOS|Any CPU
+		{659882A4-4082-4EF7-8386-D3951F94488E}.Debug|iPhone.Build.0 = Debug.iOS|Any CPU
+		{659882A4-4082-4EF7-8386-D3951F94488E}.Release|Any CPU.ActiveCfg = Release.iOS|Any CPU
+		{659882A4-4082-4EF7-8386-D3951F94488E}.Release|Any CPU.Build.0 = Release.iOS|Any CPU
+		{659882A4-4082-4EF7-8386-D3951F94488E}.Release|iPhone.ActiveCfg = Release.iOS|Any CPU
+		{659882A4-4082-4EF7-8386-D3951F94488E}.Release|iPhone.Build.0 = Release.iOS|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = TouchClient\TouchClient.csproj
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortableHttpClient", "PortableHttpClient\PortableHttpClient.csproj", "{659882A4-4082-4EF7-8386-D3951F94488E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleClient", "ConsoleClient\ConsoleClient.csproj", "{4440135C-1F93-4DA2-9838-5990602C6E30}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4440135C-1F93-4DA2-9838-5990602C6E30}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{4440135C-1F93-4DA2-9838-5990602C6E30}.Debug|Any CPU.Build.0 = Debug|x86
+		{4440135C-1F93-4DA2-9838-5990602C6E30}.Debug|x86.ActiveCfg = Debug|x86
+		{4440135C-1F93-4DA2-9838-5990602C6E30}.Debug|x86.Build.0 = Debug|x86
+		{4440135C-1F93-4DA2-9838-5990602C6E30}.Release|Any CPU.ActiveCfg = Release|x86
+		{4440135C-1F93-4DA2-9838-5990602C6E30}.Release|Any CPU.Build.0 = Release|x86
+		{4440135C-1F93-4DA2-9838-5990602C6E30}.Release|x86.ActiveCfg = Release|x86
+		{4440135C-1F93-4DA2-9838-5990602C6E30}.Release|x86.Build.0 = Release|x86
+		{659882A4-4082-4EF7-8386-D3951F94488E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{659882A4-4082-4EF7-8386-D3951F94488E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{659882A4-4082-4EF7-8386-D3951F94488E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{659882A4-4082-4EF7-8386-D3951F94488E}.Debug|x86.Build.0 = Debug|Any CPU
+		{659882A4-4082-4EF7-8386-D3951F94488E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{659882A4-4082-4EF7-8386-D3951F94488E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{659882A4-4082-4EF7-8386-D3951F94488E}.Release|x86.ActiveCfg = Release|Any CPU
+		{659882A4-4082-4EF7-8386-D3951F94488E}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = ConsoleClient\ConsoleClient.csproj
+	EndGlobalSection
+EndGlobal

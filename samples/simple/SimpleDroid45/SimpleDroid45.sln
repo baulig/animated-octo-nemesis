@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleDroid45", "SimpleDroid45\SimpleDroid45.csproj", "{D6C711C0-84D0-42F6-A452-7B3DE2DD4D37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Portable45", "Portable45\Portable45.csproj", "{568FE2F1-56DE-407E-BF7A-4AFD78FE9E46}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{568FE2F1-56DE-407E-BF7A-4AFD78FE9E46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{568FE2F1-56DE-407E-BF7A-4AFD78FE9E46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{568FE2F1-56DE-407E-BF7A-4AFD78FE9E46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{568FE2F1-56DE-407E-BF7A-4AFD78FE9E46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6C711C0-84D0-42F6-A452-7B3DE2DD4D37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6C711C0-84D0-42F6-A452-7B3DE2DD4D37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6C711C0-84D0-42F6-A452-7B3DE2DD4D37}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{D6C711C0-84D0-42F6-A452-7B3DE2DD4D37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6C711C0-84D0-42F6-A452-7B3DE2DD4D37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6C711C0-84D0-42F6-A452-7B3DE2DD4D37}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = SimpleDroid45\SimpleDroid45.csproj
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
