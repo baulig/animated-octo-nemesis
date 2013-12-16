@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReactiveX", "ReactiveX\ReactiveX.csproj", "{BCB359A8-8D23-463A-85E1-1B3D55CE58E3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReactiveX.iOS", "ReactiveX.ioS\ReactiveX.iOS.csproj", "{BCB359A8-8D23-463A-85E1-1B3D55CE58E3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -32,6 +32,9 @@ Global
 		{BCB359A8-8D23-463A-85E1-1B3D55CE58E3}.Release|iPhone.Build.0 = Release|iPhone
 		{BCB359A8-8D23-463A-85E1-1B3D55CE58E3}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
 		{BCB359A8-8D23-463A-85E1-1B3D55CE58E3}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = ReactiveX.iOS\ReactiveX.iOS.csproj
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
