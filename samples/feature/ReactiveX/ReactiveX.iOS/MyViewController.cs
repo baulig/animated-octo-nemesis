@@ -27,25 +27,24 @@ namespace ReactiveX
 			button = UIButton.FromType (UIButtonType.RoundedRect);
 
 			button.Frame = new RectangleF (
-			    View.Frame.Width / 2 - buttonWidth / 2,
-			    View.Frame.Height / 2 - buttonHeight / 2,
-			    buttonWidth,
-			    buttonHeight);
+				View.Frame.Width / 2 - buttonWidth / 2,
+				View.Frame.Height / 2 - buttonHeight / 2,
+				buttonWidth,
+				buttonHeight);
 
 			button.SetTitle ("Click me", UIControlState.Normal);
 
 			button.TouchUpInside += (object sender, EventArgs e) => {
 				button.SetTitle (String.Format ("clicked {0} times", numClicks++), UIControlState.Normal);
 
-                Observable.Range(0, 4).Subscribe(i => Console.WriteLine("Number {0}", i));
+				Observable.Range (0, 4).Subscribe (i => Console.WriteLine ("Number {0}", i));
 			};
 
 			button.AutoresizingMask = UIViewAutoresizing.FlexibleWidth | UIViewAutoresizing.FlexibleTopMargin |
-			    UIViewAutoresizing.FlexibleBottomMargin;
+			UIViewAutoresizing.FlexibleBottomMargin;
 
 			View.AddSubview (button);
 		}
-
 	}
 }
 
